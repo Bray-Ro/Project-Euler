@@ -16,17 +16,19 @@ int main(void) {
       
       evenFibIndex++;
       
+      
     }
     
     fibIndex++;
     
   }
-  int i = 1;
-  while (i < 11) {
+  int i = 0;
+  while (i < 12) {
     sum = sum + evenFibs[i];
-    
+   
     i++;
   }
   printf("\n%d", sum);
+
   return 0;
 }
