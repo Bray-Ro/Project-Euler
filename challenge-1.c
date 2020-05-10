@@ -11,9 +11,13 @@ int main(void) {
     sprintf(current5Str, "%d", current5);
     
     printf("\n%d", current3);
-    printf("\n%d", current5);
     current3 = current3 + 3;
+    if (current5 < 1000) {
+    printf("\n%d", current5);
     current5 = current5 + 5;
+    }
+    
+    
   }
   return 0;
 }
